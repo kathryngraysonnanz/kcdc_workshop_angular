@@ -17,22 +17,46 @@ import {
   (click)="onClick.emit($event)"
   [ngClass]="classes"
   [themeColor]="themeColor"
+  [disabled]="disabled"
+  [fillMode]="fillMode"
+  [icon]="icon"
+  [imageUrl]="imageUrl"
+  [rounded]="rounded"
+  [selected]="selected"
+  [size]="size"
+  [toggleable]="toggleable"
 >
   {{ label }}
 </button>`
 })
 export class ButtonComponent {
-  /** Is this the principal call to action on the page? */
-  @Input()
-  primary = false;
 
-  /** What background color to use */
   @Input()
-  backgroundColor?: string;
+  disabled?: boolean; 
 
-  /** How large should the button be? */
   @Input()
-  themeColor?: 'primary' | 'secondary' | 'tertiary';
+  fillMode?: 'solid' | 'flat' | 'outline' | 'clear' | 'link' | 'none'; 
+  
+  @Input()
+  icon?: string; 
+
+  @Input()
+  imageUrl?: string; 
+
+  @Input()
+  rounded?: 'small' | 'medium' | 'large' | 'full' | 'none';
+
+  @Input() 
+  selected?: boolean; 
+
+  @Input()
+  size?: 'small' | 'medium' | 'large' | 'none'; 
+
+  @Input()
+  themeColor?: 'base'| 'primary' | 'secondary' | 'tertiary' | 'info' | 'success' | 'warning' | 'error' | 'dark' | 'light' | 'inverse' | 'none'; 
+
+  @Input() 
+  toggleable?: boolean;
 
   /**
    * Button contents
@@ -47,6 +71,6 @@ export class ButtonComponent {
   onClick = new EventEmitter<Event>();
 
   public get classes(): string[] {
-    return ['storybook-button', `storybook-button--${this.themeColor}`];
+    return ['storybook-button'];
   }
 }
