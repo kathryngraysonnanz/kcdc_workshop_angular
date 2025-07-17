@@ -1,11 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import {
-  KENDO_BUTTONS,
-  ButtonSize,
-  ButtonRounded,
-  ButtonFillMode,
-  ButtonThemeColor,
+  KENDO_BUTTONS
 } from "@progress/kendo-angular-buttons";
 
 @Component({

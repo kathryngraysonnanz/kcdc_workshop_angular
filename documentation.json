@@ -93,7 +93,7 @@
         },
         {
             "name": "ButtonComponent",
-            "id": "component-ButtonComponent-3859386c546e324860e7bf9262025d7a17352152ed8a3717a892fd36e9ea3a4cf0217a962ef53df28b32f9f4b089b357d97c4b3110b1abdca5575ef3db3f19e1",
+            "id": "component-ButtonComponent-edc1c6e004a5ac17927e23a75e00bfaf58fed80f68e5725c366997d0b2ea6e88dac0d174ac80095ea7277c68f82c3c41645e5678f27724c50562cc181362b072",
             "file": "src/stories/button.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -112,7 +112,7 @@
                     "name": "disabled",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 35,
+                    "line": 31,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -120,7 +120,7 @@
                     "name": "fillMode",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 38,
+                    "line": 34,
                     "type": "\"solid\" | \"flat\" | \"outline\" | \"clear\" | \"link\" | \"none\"",
                     "decorators": []
                 },
@@ -128,7 +128,7 @@
                     "name": "icon",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 41,
+                    "line": 37,
                     "type": "string",
                     "decorators": []
                 },
@@ -136,7 +136,7 @@
                     "name": "imageUrl",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 44,
+                    "line": 40,
                     "type": "string",
                     "decorators": []
                 },
@@ -147,16 +147,16 @@
                     "deprecationMessage": "",
                     "jsdoctags": [
                         {
-                            "pos": 1309,
-                            "end": 1322,
+                            "pos": 1239,
+                            "end": 1252,
                             "kind": 327,
                             "id": 0,
                             "flags": 16842752,
                             "modifierFlagsCache": 0,
                             "transformFlags": 0,
                             "tagName": {
-                                "pos": 1310,
-                                "end": 1318,
+                                "pos": 1240,
+                                "end": 1248,
                                 "kind": 80,
                                 "id": 0,
                                 "flags": 16842752,
@@ -168,7 +168,7 @@
                     ],
                     "rawdescription": "\n\nButton contents\n\n",
                     "description": "<p>Button contents</p>\n",
-                    "line": 67,
+                    "line": 63,
                     "type": "string",
                     "decorators": []
                 },
@@ -176,7 +176,7 @@
                     "name": "rounded",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 47,
+                    "line": 43,
                     "type": "\"small\" | \"medium\" | \"large\" | \"full\" | \"none\"",
                     "decorators": []
                 },
@@ -184,7 +184,7 @@
                     "name": "selected",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 50,
+                    "line": 46,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -192,7 +192,7 @@
                     "name": "size",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 53,
+                    "line": 49,
                     "type": "\"small\" | \"medium\" | \"large\" | \"none\"",
                     "decorators": []
                 },
@@ -200,7 +200,7 @@
                     "name": "themeColor",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 56,
+                    "line": 52,
                     "type": "\"base\" | \"primary\" | \"secondary\" | \"tertiary\" | \"info\" | \"success\" | \"warning\" | \"error\" | \"dark\" | \"light\" | \"inverse\" | \"none\"",
                     "decorators": []
                 },
@@ -208,7 +208,7 @@
                     "name": "toggleable",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 59,
+                    "line": 55,
                     "type": "boolean",
                     "decorators": []
                 }
@@ -221,7 +221,7 @@
                     "deprecationMessage": "",
                     "rawdescription": "\nOptional click handler",
                     "description": "<p>Optional click handler</p>\n",
-                    "line": 71,
+                    "line": 67,
                     "type": "EventEmitter"
                 }
             ],
@@ -244,7 +244,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input, Output, EventEmitter } from '@angular/core';\nimport {\n  KENDO_BUTTONS,\n  ButtonSize,\n  ButtonRounded,\n  ButtonFillMode,\n  ButtonThemeColor,\n} from \"@progress/kendo-angular-buttons\";\n\n@Component({\n  selector: 'storybook-button',\n  standalone: true,\n  imports: [CommonModule, KENDO_BUTTONS],\n  template: ` <button\n  kendoButton\n  (click)=\"onClick.emit($event)\"\n  [ngClass]=\"classes\"\n  [themeColor]=\"themeColor\"\n  [disabled]=\"disabled\"\n  [fillMode]=\"fillMode\"\n  [icon]=\"icon\"\n  [imageUrl]=\"imageUrl\"\n  [rounded]=\"rounded\"\n  [selected]=\"selected\"\n  [size]=\"size\"\n  [toggleable]=\"toggleable\"\n>\n  {{ label }}\n</button>`\n})\nexport class ButtonComponent {\n\n  @Input()\n  disabled?: boolean; \n\n  @Input()\n  fillMode?: 'solid' | 'flat' | 'outline' | 'clear' | 'link' | 'none'; \n  \n  @Input()\n  icon?: string; \n\n  @Input()\n  imageUrl?: string; \n\n  @Input()\n  rounded?: 'small' | 'medium' | 'large' | 'full' | 'none';\n\n  @Input() \n  selected?: boolean; \n\n  @Input()\n  size?: 'small' | 'medium' | 'large' | 'none'; \n\n  @Input()\n  themeColor?: 'base'| 'primary' | 'secondary' | 'tertiary' | 'info' | 'success' | 'warning' | 'error' | 'dark' | 'light' | 'inverse' | 'none'; \n\n  @Input() \n  toggleable?: boolean;\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /** Optional click handler */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    return ['storybook-button'];\n  }\n}\n",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input, Output, EventEmitter } from '@angular/core';\nimport {\n  KENDO_BUTTONS\n} from \"@progress/kendo-angular-buttons\";\n\n@Component({\n  selector: 'storybook-button',\n  standalone: true,\n  imports: [CommonModule, KENDO_BUTTONS],\n  template: ` <button\n  kendoButton\n  (click)=\"onClick.emit($event)\"\n  [ngClass]=\"classes\"\n  [themeColor]=\"themeColor\"\n  [disabled]=\"disabled\"\n  [fillMode]=\"fillMode\"\n  [icon]=\"icon\"\n  [imageUrl]=\"imageUrl\"\n  [rounded]=\"rounded\"\n  [selected]=\"selected\"\n  [size]=\"size\"\n  [toggleable]=\"toggleable\"\n>\n  {{ label }}\n</button>`\n})\nexport class ButtonComponent {\n\n  @Input()\n  disabled?: boolean; \n\n  @Input()\n  fillMode?: 'solid' | 'flat' | 'outline' | 'clear' | 'link' | 'none'; \n  \n  @Input()\n  icon?: string; \n\n  @Input()\n  imageUrl?: string; \n\n  @Input()\n  rounded?: 'small' | 'medium' | 'large' | 'full' | 'none';\n\n  @Input() \n  selected?: boolean; \n\n  @Input()\n  size?: 'small' | 'medium' | 'large' | 'none'; \n\n  @Input()\n  themeColor?: 'base'| 'primary' | 'secondary' | 'tertiary' | 'info' | 'success' | 'warning' | 'error' | 'dark' | 'light' | 'inverse' | 'none'; \n\n  @Input() \n  toggleable?: boolean;\n\n  /**\n   * Button contents\n   *\n   * @required\n   */\n  @Input()\n  label = 'Button';\n\n  /** Optional click handler */\n  @Output()\n  onClick = new EventEmitter<Event>();\n\n  public get classes(): string[] {\n    return ['storybook-button'];\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -256,7 +256,374 @@
                         "name": "classes",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 73
+                        "line": 69
+                    }
+                }
+            }
+        },
+        {
+            "name": "CardComponent",
+            "id": "component-CardComponent-1486998ac4bb6155ce35297f4b2b9488daf3822fb6a1a06beb3a5c6bc16726d77486809b623c9f411cedf0b1900cbb7259e03fcb55f8d4f4ae88123eca5498f5",
+            "file": "src/stories/card.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "storybook-card",
+            "styleUrls": [],
+            "styles": [],
+            "template": " <kendo-card [orientation]=\"orientation\" [width]=\"width\">\n    <img kendoCardMedia src=\"https://demos.telerik.com/kendo-angular-ui/assets/layout/card/coffee_second.jpg\" />\n    <div>\n      <kendo-card-header>\n        <h1 kendoCardTitle>Coffee with friends</h1>\n        <p kendoCardSubtitle>An example card layout</p>\n      </kendo-card-header>\n      <kendo-card-body>\n        <p>\n          The right place to be if you're in love with high quality\n          espresso or tea. We offer wide range to top coffee brands as\n          Davidoff Cafe, Lavazza, Tchibo, Illy.\n        </p>\n      </kendo-card-body>\n      <kendo-card-actions>\n        <button kendoButton themeColor=\"primary\">\n          Add\n        </button>\n         <button kendoButton>\n          Decline\n        </button>\n      </kendo-card-actions>\n    </div>\n  </kendo-card>\n",
+            "templateUrl": [],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "orientation",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 42,
+                    "type": "\"horizontal\" | \"vertical\"",
+                    "decorators": []
+                },
+                {
+                    "name": "width",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 45,
+                    "type": "string",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                },
+                {
+                    "name": "KENDO_LAYOUT"
+                },
+                {
+                    "name": "KENDO_BUTTONS"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input } from '@angular/core';\nimport {\n  KENDO_LAYOUT\n} from \"@progress/kendo-angular-layout\";\nimport { KENDO_BUTTONS } from \"@progress/kendo-angular-buttons\";\n\n@Component({\n  selector: 'storybook-card',\n  standalone: true,\n  imports: [CommonModule, KENDO_LAYOUT, KENDO_BUTTONS],\n  template: ` \n      <kendo-card [orientation]=\"orientation\" [width]=\"width\">\n          <img kendoCardMedia src=\"https://demos.telerik.com/kendo-angular-ui/assets/layout/card/coffee_second.jpg\" />\n          <div>\n            <kendo-card-header>\n              <h1 kendoCardTitle>Coffee with friends</h1>\n              <p kendoCardSubtitle>An example card layout</p>\n            </kendo-card-header>\n            <kendo-card-body>\n              <p>\n                The right place to be if you're in love with high quality\n                espresso or tea. We offer wide range to top coffee brands as\n                Davidoff Cafe, Lavazza, Tchibo, Illy.\n              </p>\n            </kendo-card-body>\n            <kendo-card-actions>\n              <button kendoButton themeColor=\"primary\">\n                Add\n              </button>\n               <button kendoButton>\n                Decline\n              </button>\n            </kendo-card-actions>\n          </div>\n        </kendo-card>\n    `\n})\nexport class CardComponent {\n\n  @Input()\n  orientation?: 'horizontal' | 'vertical'; \n\n  @Input()\n  width?: string; \n\n  public get classes(): string[] {\n    return ['storybook-card'];\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "accessors": {
+                "classes": {
+                    "name": "classes",
+                    "getSignature": {
+                        "name": "classes",
+                        "type": "[]",
+                        "returnType": "string[]",
+                        "line": 47
+                    }
+                }
+            }
+        },
+        {
+            "name": "DateTimePickerComponent",
+            "id": "component-DateTimePickerComponent-27ef36ba1433168153ee2d4774cdd7818d41b10e506b7a57448cda8ab9ea6f89bd5f9c9f127e21b4d966f2a43a22ea26b37edf31fbd85bf1d9123cb78aedf2f4",
+            "file": "src/stories/datetimepicker.component.ts",
+            "encapsulation": [],
+            "entryComponents": [],
+            "inputs": [],
+            "outputs": [],
+            "providers": [],
+            "selector": "storybook-datetimepicker",
+            "styleUrls": [],
+            "styles": [],
+            "template": " <kendo-datetimepicker\n  [adaptive]=\"adaptive\"\n  [adaptiveSubtitle]=\"adaptiveSubtitle\"\n  [adaptiveTitle]=\"adaptiveTitle\"\n  [allowCaretMode]=\"allowCaretMode\"\n  [animateCalendarNavigation]=\"animateCalendarNavigation\"\n  [autoCorrectParts]=\"autoCorrectParts\"\n  [autoFill]=\"autoFill\"\n  [autoSwitchParts]=\"autoSwitchParts\"\n  [cancelButton]=\"cancelButton\"\n  [clearButton]=\"clearButton\"\n  [disabled]=\"disabled\"\n  [enableMouseWheel]=\"enableMouseWheel\"\n  [focusedDate]=\"focusedDate\"\n  [footer]=\"footer\"\n  [format]=\"format\"\n  [incompleteDateValidation]=\"incompleteDateValidation\"\n  [max]=\"max\"\n  [min]=\"min\"\n  [placeholder]=\"placeholer\"\n  [rangeValidation]=\"rangeValidation\"\n  [readonly]=\"readonly\"\n  [readOnlyInput]=\"readOnlyInput\"\n  [rounded]=\"rounded\"\n  [showOtherMonthDays]=\"showOtherMonthDays\"\n  [size]=\"size\"\n  [twoYearDigitMax]=\"twoYearDigitMax\"\n  [value]=\"value\"\n  [weekDaysFormat]=\"weekDaysFormat\"\n  [weekNumber]=\"weekNumber\"\n  >\n</kendo-datetimepicker>\n",
+            "templateUrl": [],
+            "viewProviders": [],
+            "hostDirectives": [],
+            "inputsClass": [
+                {
+                    "name": "adaptive",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 49,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "adaptiveSubtitle",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 52,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "adaptiveTitle",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 55,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "allowCaretMode",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 58,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "animateCalendarNavigation",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 61,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "autoCorrectParts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 64,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "autoFill",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 67,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "autoSwitchParts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 70,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "cancelButton",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 73,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "clearButton",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 76,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "disabled",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 79,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "enableMouseWheel",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 82,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "focusedDate",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 85,
+                    "type": "Date",
+                    "decorators": []
+                },
+                {
+                    "name": "footer",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 88,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "format",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 91,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "incompleteDateValidation",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 94,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "max",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 97,
+                    "type": "Date",
+                    "decorators": []
+                },
+                {
+                    "name": "min",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 100,
+                    "type": "Date",
+                    "decorators": []
+                },
+                {
+                    "name": "placeholder",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 103,
+                    "type": "string",
+                    "decorators": []
+                },
+                {
+                    "name": "rangeValidation",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 106,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "readonly",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 109,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "readOnlyInput",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 112,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "rounded",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 115,
+                    "type": "\"small\" | \"medium\" | \"full\" | \"large\"",
+                    "decorators": []
+                },
+                {
+                    "name": "showOtherMonthDays",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 118,
+                    "type": "boolean",
+                    "decorators": []
+                },
+                {
+                    "name": "size",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 121,
+                    "type": "\"small\" | \"medium\" | \"large\"",
+                    "decorators": []
+                },
+                {
+                    "name": "twoYearDigitMax",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 124,
+                    "type": "number",
+                    "decorators": []
+                },
+                {
+                    "name": "value",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 127,
+                    "type": "Date",
+                    "decorators": []
+                },
+                {
+                    "name": "weekDaysFormat",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 130,
+                    "type": "\"short\" | \"narrow\" | \"abbreviated\"",
+                    "decorators": []
+                },
+                {
+                    "name": "weekNumber",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "line": 133,
+                    "type": "boolean",
+                    "decorators": []
+                }
+            ],
+            "outputsClass": [],
+            "propertiesClass": [],
+            "methodsClass": [],
+            "deprecated": false,
+            "deprecationMessage": "",
+            "hostBindings": [],
+            "hostListeners": [],
+            "standalone": true,
+            "imports": [
+                {
+                    "name": "CommonModule",
+                    "type": "module"
+                },
+                {
+                    "name": "KENDO_DATEINPUTS"
+                },
+                {
+                    "name": "KENDO_INPUTS"
+                },
+                {
+                    "name": "KENDO_LABEL"
+                }
+            ],
+            "description": "",
+            "rawdescription": "\n",
+            "type": "component",
+            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input } from '@angular/core';\nimport { KENDO_DATEINPUTS } from \"@progress/kendo-angular-dateinputs\";\nimport { KENDO_INPUTS } from \"@progress/kendo-angular-inputs\";\nimport { KENDO_LABEL } from \"@progress/kendo-angular-label\";\n\n@Component({\n  selector: 'storybook-datetimepicker',\n  standalone: true,\n  imports: [CommonModule, KENDO_DATEINPUTS, KENDO_INPUTS, KENDO_LABEL],\n  template: ` \n    <kendo-datetimepicker \n      [adaptive]=\"adaptive\"\n      [adaptiveSubtitle]=\"adaptiveSubtitle\"\n      [adaptiveTitle]=\"adaptiveTitle\"\n      [allowCaretMode]=\"allowCaretMode\"\n      [animateCalendarNavigation]=\"animateCalendarNavigation\"\n      [autoCorrectParts]=\"autoCorrectParts\"\n      [autoFill]=\"autoFill\"\n      [autoSwitchParts]=\"autoSwitchParts\"\n      [cancelButton]=\"cancelButton\"\n      [clearButton]=\"clearButton\"\n      [disabled]=\"disabled\"\n      [enableMouseWheel]=\"enableMouseWheel\"\n      [focusedDate]=\"focusedDate\"\n      [footer]=\"footer\"\n      [format]=\"format\"\n      [incompleteDateValidation]=\"incompleteDateValidation\"\n      [max]=\"max\"\n      [min]=\"min\"\n      [placeholder]=\"placeholer\"\n      [rangeValidation]=\"rangeValidation\"\n      [readonly]=\"readonly\"\n      [readOnlyInput]=\"readOnlyInput\" \n      [rounded]=\"rounded\"\n      [showOtherMonthDays]=\"showOtherMonthDays\"\n      [size]=\"size\"\n      [twoYearDigitMax]=\"twoYearDigitMax\"\n      [value]=\"value\"\n      [weekDaysFormat]=\"weekDaysFormat\"\n      [weekNumber]=\"weekNumber\"\n      >\n    </kendo-datetimepicker>\n    `\n})\nexport class DateTimePickerComponent {\n\n  @Input()\n  adaptive?: boolean; \n\n  @Input()\n  adaptiveSubtitle?: string; \n  \n  @Input()  \n  adaptiveTitle?: string; \n  \n  @Input()\n  allowCaretMode?: boolean; \n  \n  @Input()\n  animateCalendarNavigation?: boolean; \n\n  @Input()\n  autoCorrectParts?: boolean; \n  \n  @Input()\n  autoFill?: boolean; \n  \n  @Input()\n  autoSwitchParts?: boolean; \n\n  @Input()\n  cancelButton?: boolean; \n\n  @Input()\n  clearButton?: boolean; \n\n  @Input()\n  disabled?: boolean; \n\n  @Input()\n  enableMouseWheel?: boolean; \n\n  @Input()\n  focusedDate?: Date; \n\n  @Input()\n  footer?: boolean; \n\n  @Input()\n  format?: string; \n\n  @Input()\n  incompleteDateValidation?: boolean; \n\n  @Input()\n  max?: Date;\n\n  @Input()\n  min?: Date;\n\n  @Input()\n  placeholder?: string; \n\n  @Input()\n  rangeValidation?: boolean; \n\n  @Input()\n  readonly?: boolean; \n\n  @Input()\n  readOnlyInput?: boolean; \n\n  @Input()\n  rounded?: 'small' | 'medium' | 'full' | 'large'; \n\n  @Input()\n  showOtherMonthDays?: boolean; \n\n  @Input()\n  size?: 'small' | 'medium' | 'large'; \n\n  @Input()\n  twoYearDigitMax?: number; \n\n  @Input()\n  value?: Date; \n\n  @Input()\n  weekDaysFormat?: 'short' | 'narrow' | 'abbreviated'; \n\n  @Input()\n  weekNumber?: boolean; \n\n  public get classes(): string[] {\n    return ['storybook-datetimepicker'];\n  }\n}\n",
+            "assetsDirs": [],
+            "styleUrlsData": "",
+            "stylesData": "",
+            "extends": [],
+            "accessors": {
+                "classes": {
+                    "name": "classes",
+                    "getSignature": {
+                        "name": "classes",
+                        "type": "[]",
+                        "returnType": "string[]",
+                        "line": 135
                     }
                 }
             }
@@ -299,7 +666,7 @@
     },
     "routes": [],
     "coverage": {
-        "count": 4,
+        "count": 2,
         "status": "low",
         "files": [
             {
@@ -328,6 +695,24 @@
                 "name": "ButtonComponent",
                 "coveragePercent": 16,
                 "coverageCount": "2/12",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/card.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "CardComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/3",
+                "status": "low"
+            },
+            {
+                "filePath": "src/stories/datetimepicker.component.ts",
+                "type": "component",
+                "linktype": "component",
+                "name": "DateTimePickerComponent",
+                "coveragePercent": 0,
+                "coverageCount": "0/30",
                 "status": "low"
             },
             {

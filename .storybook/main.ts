@@ -1,3 +1,4 @@
+import '@angular/localize/init';
 import type { StorybookConfig } from '@storybook/angular';
 
 const config: StorybookConfig = {
