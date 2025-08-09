@@ -337,7 +337,7 @@
         },
         {
             "name": "DateTimePickerComponent",
-            "id": "component-DateTimePickerComponent-27ef36ba1433168153ee2d4774cdd7818d41b10e506b7a57448cda8ab9ea6f89bd5f9c9f127e21b4d966f2a43a22ea26b37edf31fbd85bf1d9123cb78aedf2f4",
+            "id": "component-DateTimePickerComponent-775765da51374e1512208ac27bc3150a4f1df725dea5323fc16eb6c70a261ffc54830c5d0aa43969b34b52300a9cca88cc73a2784acb2507e6dc3bbab143bd2b",
             "file": "src/stories/datetimepicker.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -356,7 +356,7 @@
                     "name": "adaptive",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 49,
+                    "line": 50,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -364,7 +364,7 @@
                     "name": "adaptiveSubtitle",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 52,
+                    "line": 53,
                     "type": "string",
                     "decorators": []
                 },
@@ -372,7 +372,7 @@
                     "name": "adaptiveTitle",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 55,
+                    "line": 56,
                     "type": "string",
                     "decorators": []
                 },
@@ -380,7 +380,7 @@
                     "name": "allowCaretMode",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 58,
+                    "line": 59,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -388,7 +388,7 @@
                     "name": "animateCalendarNavigation",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 61,
+                    "line": 62,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -396,7 +396,7 @@
                     "name": "autoCorrectParts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 64,
+                    "line": 65,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -404,7 +404,7 @@
                     "name": "autoFill",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 67,
+                    "line": 68,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -412,7 +412,7 @@
                     "name": "autoSwitchParts",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 70,
+                    "line": 71,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -420,7 +420,7 @@
                     "name": "cancelButton",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 73,
+                    "line": 74,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -428,7 +428,7 @@
                     "name": "clearButton",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 76,
+                    "line": 77,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -436,7 +436,7 @@
                     "name": "disabled",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 79,
+                    "line": 80,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -444,7 +444,7 @@
                     "name": "enableMouseWheel",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 82,
+                    "line": 83,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -452,7 +452,7 @@
                     "name": "focusedDate",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 85,
+                    "line": 86,
                     "type": "Date",
                     "decorators": []
                 },
@@ -460,7 +460,7 @@
                     "name": "footer",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 88,
+                    "line": 89,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -468,7 +468,7 @@
                     "name": "format",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 91,
+                    "line": 92,
                     "type": "string",
                     "decorators": []
                 },
@@ -476,7 +476,7 @@
                     "name": "incompleteDateValidation",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 94,
+                    "line": 95,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -484,7 +484,7 @@
                     "name": "max",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 97,
+                    "line": 98,
                     "type": "Date",
                     "decorators": []
                 },
@@ -492,7 +492,7 @@
                     "name": "min",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 100,
+                    "line": 101,
                     "type": "Date",
                     "decorators": []
                 },
@@ -500,7 +500,7 @@
                     "name": "placeholder",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 103,
+                    "line": 104,
                     "type": "string",
                     "decorators": []
                 },
@@ -508,7 +508,7 @@
                     "name": "rangeValidation",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 106,
+                    "line": 107,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -516,7 +516,7 @@
                     "name": "readonly",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 109,
+                    "line": 110,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -524,7 +524,7 @@
                     "name": "readOnlyInput",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 112,
+                    "line": 113,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -532,7 +532,7 @@
                     "name": "rounded",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 115,
+                    "line": 116,
                     "type": "\"small\" | \"medium\" | \"full\" | \"large\"",
                     "decorators": []
                 },
@@ -540,7 +540,7 @@
                     "name": "showOtherMonthDays",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 118,
+                    "line": 119,
                     "type": "boolean",
                     "decorators": []
                 },
@@ -548,7 +548,7 @@
                     "name": "size",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 121,
+                    "line": 122,
                     "type": "\"small\" | \"medium\" | \"large\"",
                     "decorators": []
                 },
@@ -556,7 +556,7 @@
                     "name": "twoYearDigitMax",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 124,
+                    "line": 125,
                     "type": "number",
                     "decorators": []
                 },
@@ -564,7 +564,7 @@
                     "name": "value",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 127,
+                    "line": 128,
                     "type": "Date",
                     "decorators": []
                 },
@@ -572,7 +572,7 @@
                     "name": "weekDaysFormat",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 130,
+                    "line": 131,
                     "type": "\"short\" | \"narrow\" | \"abbreviated\"",
                     "decorators": []
                 },
@@ -580,7 +580,7 @@
                     "name": "weekNumber",
                     "deprecated": false,
                     "deprecationMessage": "",
-                    "line": 133,
+                    "line": 134,
                     "type": "boolean",
                     "decorators": []
                 }
@@ -611,7 +611,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { CommonModule } from '@angular/common';\nimport { Component, Input } from '@angular/core';\nimport { KENDO_DATEINPUTS } from \"@progress/kendo-angular-dateinputs\";\nimport { KENDO_INPUTS } from \"@progress/kendo-angular-inputs\";\nimport { KENDO_LABEL } from \"@progress/kendo-angular-label\";\n\n@Component({\n  selector: 'storybook-datetimepicker',\n  standalone: true,\n  imports: [CommonModule, KENDO_DATEINPUTS, KENDO_INPUTS, KENDO_LABEL],\n  template: ` \n    <kendo-datetimepicker \n      [adaptive]=\"adaptive\"\n      [adaptiveSubtitle]=\"adaptiveSubtitle\"\n      [adaptiveTitle]=\"adaptiveTitle\"\n      [allowCaretMode]=\"allowCaretMode\"\n      [animateCalendarNavigation]=\"animateCalendarNavigation\"\n      [autoCorrectParts]=\"autoCorrectParts\"\n      [autoFill]=\"autoFill\"\n      [autoSwitchParts]=\"autoSwitchParts\"\n      [cancelButton]=\"cancelButton\"\n      [clearButton]=\"clearButton\"\n      [disabled]=\"disabled\"\n      [enableMouseWheel]=\"enableMouseWheel\"\n      [focusedDate]=\"focusedDate\"\n      [footer]=\"footer\"\n      [format]=\"format\"\n      [incompleteDateValidation]=\"incompleteDateValidation\"\n      [max]=\"max\"\n      [min]=\"min\"\n      [placeholder]=\"placeholer\"\n      [rangeValidation]=\"rangeValidation\"\n      [readonly]=\"readonly\"\n      [readOnlyInput]=\"readOnlyInput\" \n      [rounded]=\"rounded\"\n      [showOtherMonthDays]=\"showOtherMonthDays\"\n      [size]=\"size\"\n      [twoYearDigitMax]=\"twoYearDigitMax\"\n      [value]=\"value\"\n      [weekDaysFormat]=\"weekDaysFormat\"\n      [weekNumber]=\"weekNumber\"\n      >\n    </kendo-datetimepicker>\n    `\n})\nexport class DateTimePickerComponent {\n\n  @Input()\n  adaptive?: boolean; \n\n  @Input()\n  adaptiveSubtitle?: string; \n  \n  @Input()  \n  adaptiveTitle?: string; \n  \n  @Input()\n  allowCaretMode?: boolean; \n  \n  @Input()\n  animateCalendarNavigation?: boolean; \n\n  @Input()\n  autoCorrectParts?: boolean; \n  \n  @Input()\n  autoFill?: boolean; \n  \n  @Input()\n  autoSwitchParts?: boolean; \n\n  @Input()\n  cancelButton?: boolean; \n\n  @Input()\n  clearButton?: boolean; \n\n  @Input()\n  disabled?: boolean; \n\n  @Input()\n  enableMouseWheel?: boolean; \n\n  @Input()\n  focusedDate?: Date; \n\n  @Input()\n  footer?: boolean; \n\n  @Input()\n  format?: string; \n\n  @Input()\n  incompleteDateValidation?: boolean; \n\n  @Input()\n  max?: Date;\n\n  @Input()\n  min?: Date;\n\n  @Input()\n  placeholder?: string; \n\n  @Input()\n  rangeValidation?: boolean; \n\n  @Input()\n  readonly?: boolean; \n\n  @Input()\n  readOnlyInput?: boolean; \n\n  @Input()\n  rounded?: 'small' | 'medium' | 'full' | 'large'; \n\n  @Input()\n  showOtherMonthDays?: boolean; \n\n  @Input()\n  size?: 'small' | 'medium' | 'large'; \n\n  @Input()\n  twoYearDigitMax?: number; \n\n  @Input()\n  value?: Date; \n\n  @Input()\n  weekDaysFormat?: 'short' | 'narrow' | 'abbreviated'; \n\n  @Input()\n  weekNumber?: boolean; \n\n  public get classes(): string[] {\n    return ['storybook-datetimepicker'];\n  }\n}\n",
+            "sourceCode": "import '@angular/localize/init';\nimport { CommonModule } from '@angular/common';\nimport { Component, Input } from '@angular/core';\nimport { KENDO_DATEINPUTS } from \"@progress/kendo-angular-dateinputs\";\nimport { KENDO_INPUTS } from \"@progress/kendo-angular-inputs\";\nimport { KENDO_LABEL } from \"@progress/kendo-angular-label\";\n\n@Component({\n  selector: 'storybook-datetimepicker',\n  standalone: true,\n  imports: [CommonModule, KENDO_DATEINPUTS, KENDO_INPUTS, KENDO_LABEL],\n  template: ` \n    <kendo-datetimepicker \n      [adaptive]=\"adaptive\"\n      [adaptiveSubtitle]=\"adaptiveSubtitle\"\n      [adaptiveTitle]=\"adaptiveTitle\"\n      [allowCaretMode]=\"allowCaretMode\"\n      [animateCalendarNavigation]=\"animateCalendarNavigation\"\n      [autoCorrectParts]=\"autoCorrectParts\"\n      [autoFill]=\"autoFill\"\n      [autoSwitchParts]=\"autoSwitchParts\"\n      [cancelButton]=\"cancelButton\"\n      [clearButton]=\"clearButton\"\n      [disabled]=\"disabled\"\n      [enableMouseWheel]=\"enableMouseWheel\"\n      [focusedDate]=\"focusedDate\"\n      [footer]=\"footer\"\n      [format]=\"format\"\n      [incompleteDateValidation]=\"incompleteDateValidation\"\n      [max]=\"max\"\n      [min]=\"min\"\n      [placeholder]=\"placeholer\"\n      [rangeValidation]=\"rangeValidation\"\n      [readonly]=\"readonly\"\n      [readOnlyInput]=\"readOnlyInput\" \n      [rounded]=\"rounded\"\n      [showOtherMonthDays]=\"showOtherMonthDays\"\n      [size]=\"size\"\n      [twoYearDigitMax]=\"twoYearDigitMax\"\n      [value]=\"value\"\n      [weekDaysFormat]=\"weekDaysFormat\"\n      [weekNumber]=\"weekNumber\"\n      >\n    </kendo-datetimepicker>\n    `\n})\nexport class DateTimePickerComponent {\n\n  @Input()\n  adaptive?: boolean; \n\n  @Input()\n  adaptiveSubtitle?: string; \n  \n  @Input()  \n  adaptiveTitle?: string; \n  \n  @Input()\n  allowCaretMode?: boolean; \n  \n  @Input()\n  animateCalendarNavigation?: boolean; \n\n  @Input()\n  autoCorrectParts?: boolean; \n  \n  @Input()\n  autoFill?: boolean; \n  \n  @Input()\n  autoSwitchParts?: boolean; \n\n  @Input()\n  cancelButton?: boolean; \n\n  @Input()\n  clearButton?: boolean; \n\n  @Input()\n  disabled?: boolean; \n\n  @Input()\n  enableMouseWheel?: boolean; \n\n  @Input()\n  focusedDate?: Date; \n\n  @Input()\n  footer?: boolean; \n\n  @Input()\n  format?: string; \n\n  @Input()\n  incompleteDateValidation?: boolean; \n\n  @Input()\n  max?: Date;\n\n  @Input()\n  min?: Date;\n\n  @Input()\n  placeholder?: string; \n\n  @Input()\n  rangeValidation?: boolean; \n\n  @Input()\n  readonly?: boolean; \n\n  @Input()\n  readOnlyInput?: boolean; \n\n  @Input()\n  rounded?: 'small' | 'medium' | 'full' | 'large'; \n\n  @Input()\n  showOtherMonthDays?: boolean; \n\n  @Input()\n  size?: 'small' | 'medium' | 'large'; \n\n  @Input()\n  twoYearDigitMax?: number; \n\n  @Input()\n  value?: Date; \n\n  @Input()\n  weekDaysFormat?: 'short' | 'narrow' | 'abbreviated'; \n\n  @Input()\n  weekNumber?: boolean; \n\n  public get classes(): string[] {\n    return ['storybook-datetimepicker'];\n  }\n}\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -623,7 +623,7 @@
                         "name": "classes",
                         "type": "[]",
                         "returnType": "string[]",
-                        "line": 135
+                        "line": 136
                     }
                 }
             }
